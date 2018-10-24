@@ -8,6 +8,7 @@
 <description>Speed at which this person cuts rough stone into blocks.</description>
 <category>PawnWork</category>
 <defaultBaseValue>1</defaultBaseValue>
+<minValue>0.1</minValue>
 <toStringStyle>PercentZero</toStringStyle>
 
 <statFactors>
@@ -27,6 +28,7 @@
 	<li>
 		<capacity>Sight</capacity>
 		<weight>0.3</weight>
+		<max>1</max>
 	</li>
 	<li>
 		<capacity>Manipulation</capacity>
