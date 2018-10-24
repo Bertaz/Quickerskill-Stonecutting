@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+	    <xpath>Defs/RecipeDef[@Name = "MakeStoneBlocksBase"]</xpath>
+		<value>
+	        	<workSkill>Crafting</workSkill>
+	       		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+		</value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+	    <xpath>Defs/RecipeDef[@Name = "MakeStoneBlocksBase"]/workSpeedStat</xpath>
+		<value>
+	       		<workSpeedStat>StonecuttingSpeed</workSpeedStat>
+		</value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+	    <xpath>/Defs/StatDef[defName = "UnskilledLaborSpeed"]/description</xpath>
+		<value>
+		<description>The speed at which this person carries out unskilled labor like making chemfuel at a refinery or burning items.</description>
+		</value>
+    </Operation>
+</Patch>
