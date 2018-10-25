@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+	<identifier>Quicker_skill-Stonecutting</identifier>
+	<version>1.0.6</version>
+	<showCrossPromotions>true</showCrossPromotions>
+	<manifestUri>https://raw.githubusercontent.com/Bertaz/Quicker_skill-Stonecutting/master/About/Manifest.xml</manifestUri>
+	<downloadUri>https://github.com/Bertaz/Quicker_skill-Stonecutting/releases</downloadUri>
+</Manifest>
