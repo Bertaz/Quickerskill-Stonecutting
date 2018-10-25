@@ -18,8 +18,8 @@
 <skillNeedFactors>
 	<li Class="SkillNeed_BaseBonus">
 	<skill>Crafting</skill>
-	<baseValue>0.8</baseValue>
-	<bonusPerLevel>0.075</bonusPerLevel>
+	<baseValue>0.66</baseValue>
+	<bonusPerLevel>0.092</bonusPerLevel>
 	</li>
 </skillNeedFactors>
 
